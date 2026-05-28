@@ -1,0 +1,2 @@
+timestamp,question,sql,status,row_count,elapsed_ms,error
+2026-05-25T18:08:06,Berapa revenue per channel bulan Mei?,"SELECT channel, SUM(revenue) AS total_revenue FROM sales_orders WHERE strftime('%m', date) = '05' GROUP BY channel LIMIT 100;",success,4,2582.94,
