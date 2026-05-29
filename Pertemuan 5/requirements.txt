@@ -1,0 +1,12 @@
+openai
+python-dotenv
+pandas
+sqlalchemy
+tabulate
+jinja2
+markdown
+fastapi
+uvicorn
+pydantic
+weasyprint
+pytest
